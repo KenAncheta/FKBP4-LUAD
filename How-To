@@ -4,4 +4,4 @@ Simple How-To
 2. Download the data stated into DataSources
 3. GZ files must be unzipped (do not rename the file)
 4. Run R (preferably the latest version)
-5. Open FKBP4-LUAD
+5. Open and run in Pipeline.R
