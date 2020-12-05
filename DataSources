@@ -1,0 +1,14 @@
+Last accessed: 5 Dec 2020 00:15
+
+https://xenabrowser.net/datapages/
+https://xenabrowser.net/datapages/?cohort=TCGA%20Lung%20Adenocarcinoma%20(LUAD)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
+
+Copy number:              https://tcga.xenahubs.net/download/TCGA.LUAD.sampleMap/Gistic2_CopyNumber_Gistic2_all_data_by_genes.gz
+DNA Methylation:          https://tcga.xenahubs.net/download/TCGA.LUAD.sampleMap/HumanMethylation450.gz
+RNAseq:                   https://tcga.xenahubs.net/download/TCGA.LUAD.sampleMap/HiSeqV2.gz
+Curated survival data:    https://tcga.xenahubs.net/download/survival/LUAD_survival.txt.gz
+Clinical data:            https://tcga.xenahubs.net/download/TCGA.LUAD.sampleMap/LUAD_clinicalMatrix
+
+
+
+
