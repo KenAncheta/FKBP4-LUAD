@@ -6,10 +6,10 @@ library("survminer")
 library("dplyr")
 
 # Load data
-rna.seq <- as.matrix(read.table("RNA_Seq_HiSeqV2", sep="\t",header=TRUE,row.names = 1))
-survival <- read.table("Survival_LUAD_survival.txt", sep="\t",header=TRUE, row.names = 1 )
-clin.data <- read.table("Clinical_LUAD_clinicalMatrix", sep= "\t", header=T, row.names=1)
-prot.exp <- as.matrix(read.table("Protein_RPPA_RBN", sep="\t", header=T, row.names=1))
+rna.seq <- as.matrix(read.table("HiSeqV2", sep="\t",header=TRUE,row.names = 1))
+survival <- read.table("survival.txt", sep="\t",header=TRUE, row.names = 1 )
+clin.data <- read.table("clinicalMatrix", sep= "\t", header=T, row.names=1)
+prot.exp <- as.matrix(read.table("RPPA_RBN", sep="\t", header=T, row.names=1))
 dna.meth <- read.table("HumanMethylation450", sep="\t", header=T, row.names=1)
 CNV <- as.matrix(read.table("Gistic2_CopyNumber_Gistic2_all_data_by_genes",sep="\t",head=T,row.names=1))
 
