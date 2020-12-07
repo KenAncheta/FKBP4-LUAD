@@ -14,6 +14,7 @@ dna.meth <- read.table("HumanMethylation450", sep="\t", header=T, row.names=1)
 CNV <- as.matrix(read.table("Gistic2_CopyNumber_Gistic2_all_data_by_genes",sep="\t",head=T,row.names=1))
 
 # Loading DNA Methylation annotation
+# Alternatively: use IlluminaHumanMethylation450kmanifest
 annot.dna.meth <- readRDS("annot450k.rds") # annotation was taken from Imperial College BRC Server
 
 # Fixing PX ID format
